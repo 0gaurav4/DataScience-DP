@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block body %}
+
+    <div class="col-md-4 mx-auto" style="height: 100%; margin-top: 10rem">
+        <h1>Register Page</h1>
+        <form method="post">
+        <input name="name" type="text" class="form-control" placeholder="Name"> <br>
+        <input name="email" type="email" class="form-control" placeholder="Email"> <br>
+        <input name="password"  type="password" class="form-control" placeholder="Password">
+        <button class="btn btn-outline-primary mt-5 w-100">Submit</button>
+    </form>
+    </div>
+
+{% endblock %}
+
+
+
+
